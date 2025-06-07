@@ -55,7 +55,9 @@ end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem "web-console"
+  gem "web-console", "~> 4.2"
+  gem "rubocop", "~> 1.75"
+  gem "hotwire-livereload", "~> 2.0"
 end
 
 group :test do
@@ -64,8 +66,8 @@ group :test do
   gem "selenium-webdriver"
 end
 
+gem "dotenv-rails", "~> 3.1"
 gem "hotwire-rails", "~> 0.1.3"
+gem "tailwindcss-rails", "~> 4.2"
 gem "devise", "~> 4.9"
 gem "pundit", "~> 2.5"
-
-gem "dotenv-rails", "~> 3.1"
