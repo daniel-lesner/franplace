@@ -56,7 +56,7 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console", "~> 4.2"
-  gem "rubocop", "~> 1.75"
+  gem "rubocop", "~> 1.76"
   gem "hotwire-livereload", "~> 2.0"
 end
 
