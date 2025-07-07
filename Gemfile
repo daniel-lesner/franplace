@@ -68,6 +68,6 @@ end
 
 gem "dotenv-rails", "~> 3.1"
 gem "hotwire-rails", "~> 0.1.3"
-gem "tailwindcss-rails", "~> 4.2"
+gem "tailwindcss-rails", "~> 4.3"
 gem "devise", "~> 4.9"
 gem "pundit", "~> 2.5"
